@@ -1,0 +1,5 @@
+services:
+  logger:
+    image: devopsdockeruh/first_volume_exercise
+    volumes:
+      - /home/myermakhanbetov/personal/software-architecture/logs.txt:/usr/app/logs.txt
